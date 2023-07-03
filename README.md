@@ -12,7 +12,7 @@
   - [Citation Information](#citation-information)
  
 ## Dataset Description
-- **Paper:** [OASum: Large-Scale Open Domain Aspect-based Summarization](https://arxiv.org/pdf/2212.09233.pdf), [Get To The Point: Summarization with Pointer-Generator Networks](https://www.aclweb.org/anthology/K16-1028.pdf)
+- **Paper:** [OASum: Large-Scale Open Domain Aspect-based Summarization](https://arxiv.org/pdf/2212.09233.pdf)
 
 The OASum Dataset is an English-language dataset containing over 3.6M document, aspect, and summary triplets.
 
