@@ -21,7 +21,7 @@ You can directly download it with huggingface datasets.
 ``` python
 from datasets import load_dataset
 
-dataset = load_dataset("cnn_dailymail")
+dataset = load_dataset("kqsong/OASum")
 ```
 
 ## Dataset Structure
