@@ -1,16 +1,3 @@
----
-license: cc-by-sa-3.0
-language:
-- en
-tags:
-- summarization
-- Wikipedia
-size_categories:
-- 1M<n<10M
-task_categories:
-  - summarization
----
-
 # Dataset Card for OASum Dataset
 
 ## Table of Contents
@@ -19,6 +6,7 @@ task_categories:
   - [Data Instances](#data-instances)
   - [Data Fields](#data-fields)
   - [Data Splits](#data-splits)
+- [Dataset Usage](#dataset-usage)
 - [Additional Information](#additional-information)
   - [Licensing Information](#licensing-information)
   - [Citation Information](#citation-information)
@@ -95,6 +83,13 @@ The OASum dataset has 3 splits: _train_, _valid_, and _test_. Below are the stat
 | Validation    | 111,578                                     |
 | Test          | 112,005                                     |
 
+## Dataset Usage
+You can directly download it with huggingface datasets.
+``` python
+from datasets import load_dataset
+
+dataset = load_dataset("cnn_dailymail")
+```
 
 ## Additional Information
 
