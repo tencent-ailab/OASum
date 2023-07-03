@@ -2,11 +2,11 @@
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
+- [Dataset Usage](#dataset-usage)
 - [Dataset Structure](#dataset-structure)
   - [Data Instances](#data-instances)
   - [Data Fields](#data-fields)
   - [Data Splits](#data-splits)
-- [Dataset Usage](#dataset-usage)
 - [Additional Information](#additional-information)
   - [Licensing Information](#licensing-information)
   - [Citation Information](#citation-information)
@@ -19,6 +19,13 @@
 
 The OASum Dataset is an English-language dataset containing over 3.6M document, aspect, and summary triplets.
 
+## Dataset Usage
+You can directly download it with huggingface datasets.
+``` python
+from datasets import load_dataset
+
+dataset = load_dataset("cnn_dailymail")
+```
 
 ## Dataset Structure
 ### Data Instances
@@ -83,13 +90,6 @@ The OASum dataset has 3 splits: _train_, _valid_, and _test_. Below are the stat
 | Validation    | 111,578                                     |
 | Test          | 112,005                                     |
 
-## Dataset Usage
-You can directly download it with huggingface datasets.
-``` python
-from datasets import load_dataset
-
-dataset = load_dataset("cnn_dailymail")
-```
 
 ## Additional Information
 
