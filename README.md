@@ -1,3 +1,6 @@
+# OASum Pretrained Checkpoints (20-epoch)
+[Pretrained Checkpoints](https://tencentoverseas-my.sharepoint.com/:u:/g/personal/riversong_global_tencent_com/EW_YPM6b9oVBsVylAYzA_NIB2JTjoKchOvBwc4lkAu7MBg?e=8XZVcN)
+
 # Dataset Card for OASum Dataset
 
 ## Table of Contents
